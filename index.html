@@ -13,12 +13,14 @@
       src="https://kit.fontawesome.com/46bdced215.js"
       crossorigin="anonymous"
     ></script>
+    <link rel="icon" href="cov.ico"/>
     <link
       rel="stylesheet"
       href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
       integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
       crossorigin="anonymous"
     />
+    
   </head>
 
   <body>
@@ -39,13 +41,13 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav ml-auto">
             <li class="nav-item">
-              <a class="nav-link" href="#footer">Contact</a>
+              <a class="nav-link" href="#contact">Contact</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#pricing">About Us</a>
+              <a class="nav-link" href="#aboutUs">About Us</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#cta">Resources</a>
+              <a class="nav-link" href="#resources">Resources</a>
             </li>
           </ul>
         </div>
@@ -69,13 +71,16 @@
               pandemic and support CoviHelp and partners can now donate through
               the COVID-Solidarity Response Fund for CoviHelp.
             </p>
-            <form class="btn">
-              <script
-                src="https://checkout.razorpay.com/v1/payment-button.js"
-                data-payment_button_id="pl_HIecYD46TlxtDj"
-                async
-              ></script>
-            </form>
+            <div class="razorpay-embed-btn" data-url="https://pages.razorpay.com/pl_HLfFji92itJ5zs/view" data-text="Donate" data-color="#528FF0" data-size="small">
+              <script>
+                (function(){
+                  var d=document; var x=!d.getElementById('razorpay-embed-btn-js')
+                  if(x){ var s=d.createElement('script'); s.defer=!0;s.id='razorpay-embed-btn-js';
+                  s.src='https://cdn.razorpay.com/static/embed_btn/bundle.js';d.body.appendChild(s);} else{var rzp=window['__rzp__'];
+                  rzp && rzp.init && rzp.init()}})();
+              </script>
+            </div>
+                
           </div>
         </div>
         <div class="img1 col-lg-6">
@@ -89,7 +94,7 @@
       </div>
     </div>
     <footer class="footer">
-      <h7>CoviHelp<sup>©</sup> Copyright 2021</h7><br>
+      <h7>CoviHelp<sup>©</sup> Copyright 2021</h7><br />
       <i class="fa fab fa-facebook"></i>
       <i class="fa fab fa-twitter-square"></i>
       <i class="fa fab fa-instagram"></i>
