@@ -13,48 +13,48 @@
       src="https://kit.fontawesome.com/46bdced215.js"
       crossorigin="anonymous"
     ></script>
-    <link rel="icon" href="cov.ico"/>
+    <link rel="icon" href="cov.ico" />
     <link
       rel="stylesheet"
       href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
       integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
       crossorigin="anonymous"
     />
-    
   </head>
 
   <body>
+    <nav class="navbar navbar-expand-lg navbar-light">
+      <a class="navbar-brand navbar-light" href="">CoviHelp</a>
+      <button
+        class="navbar-toggler navbar-light"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon navbar-light"></span>
+      </button>
+      <div
+        class="collapse navbar-collapse navbar-light"
+        id="navbarSupportedContent"
+      >
+        <ul class="navbar-nav ml-auto navbar-light">
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Contact</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#aboutUs">About Us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#resources">Resources</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
     <div class="container-fluid">
-      <nav class="navbar navbar-expand-lg">
-        <a class="navbar-brand" href="">CoviHelp</a>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-toggle="collapse"
-          data-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav ml-auto">
-            <li class="nav-item">
-              <a class="nav-link" href="#contact">Contact</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#aboutUs">About Us</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#resources">Resources</a>
-            </li>
-          </ul>
-        </div>
-      </nav>
-
       <h1 class="th1">Covid-19 Solidarity Response Fund</h1>
-
       <div class="row">
         <div class="part-1 col-lg-6">
           <div class="para">
@@ -71,16 +71,31 @@
               pandemic and support CoviHelp and partners can now donate through
               the COVID-Solidarity Response Fund for CoviHelp.
             </p>
-            <div class="razorpay-embed-btn" data-url="https://pages.razorpay.com/pl_HLfFji92itJ5zs/view" data-text="Donate" data-color="#528FF0" data-size="small">
+            <div
+              class="razorpay-embed-btn"
+              data-url="https://pages.razorpay.com/pl_HLfFji92itJ5zs/view"
+              data-text="Donate"
+              data-color="#528FF0"
+              data-size="small"
+            >
               <script>
-                (function(){
-                  var d=document; var x=!d.getElementById('razorpay-embed-btn-js')
-                  if(x){ var s=d.createElement('script'); s.defer=!0;s.id='razorpay-embed-btn-js';
-                  s.src='https://cdn.razorpay.com/static/embed_btn/bundle.js';d.body.appendChild(s);} else{var rzp=window['__rzp__'];
-                  rzp && rzp.init && rzp.init()}})();
+                (function () {
+                  var d = document;
+                  var x = !d.getElementById("razorpay-embed-btn-js");
+                  if (x) {
+                    var s = d.createElement("script");
+                    s.defer = !0;
+                    s.id = "razorpay-embed-btn-js";
+                    s.src =
+                      "https://cdn.razorpay.com/static/embed_btn/bundle.js";
+                    d.body.appendChild(s);
+                  } else {
+                    var rzp = window["__rzp__"];
+                    rzp && rzp.init && rzp.init();
+                  }
+                })();
               </script>
             </div>
-                
           </div>
         </div>
         <div class="img1 col-lg-6">

@@ -1,6 +1,6 @@
 .navbar{
-    color: darkolivegreen;
-    background: cornsilk;  
+    color: #51c4d3;
+    background: #dddddd;
     font-weight: 700;
 }
 
@@ -9,24 +9,25 @@
 }
 
 .navbar-toggler-icon{
-    color: #007bff;
+    color: #00adb5;
 }
 
 .container-fluid{
     padding-bottom: 70px;
     margin: auto;
-    background: cornsilk;
+    background: #f9f3f3;
 }
 
 .th1{
     margin: auto;
     padding: 3rem 1rem 3rem;
-    color: darkkhaki;
+    color: #f25287;
     font-size: 3rem;
     text-align: center;
 }
 
-p{
+p{  
+    color: #3c415c;
     margin: auto;
     padding: 0 1rem 0;
 }
@@ -46,7 +47,7 @@ p{
     margin: auto;
 }
 .footer{
-    background: darkkhaki;
+    background: #dddddd;
     margin: none;
     padding: 1.6% 5%;
     justify-content: center;
